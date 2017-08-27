@@ -1,5 +1,7 @@
 # TSB DevOps Role - Test Result
 
+![Logo](https://github.com/wolfen351/tsbtest/raw/master/1.%20Documentation/Company%20name%20and%20logo/Burst%20Pizza.png)
+
 I spent the weekend building this little DevOps demo for you. Please feel free to explore!
 
 Starting with the requited feature list, I expanded out the list a little with my own ideas of how a company like that would operate. I put together a more comprehensive list of features and then went about looking what IT systems would need to be created/implemented to support it. 
