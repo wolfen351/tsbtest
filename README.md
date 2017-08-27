@@ -4,24 +4,28 @@
 
 I spent the weekend building this little DevOps demo for you. Please feel free to explore!
 
-Starting with the requited feature list, I expanded out the list a little with my own ideas of how a company like that would operate. I put together a more comprehensive list of features and then went about looking what IT systems would need to be created/implemented to support it. 
+First up the marketing part. I selected Burst pizza because it has lots of marketing potential (like bursting with flavour etc), it is easy to remember and derives from "burst download of flavour". The logo is inspired by the representations of Cortana and mixed with the idea of high tech pizza. 
 
-Following this I spent some time thinking about the nature of the business, and how quickly it wants to grow. I split up the IT into in-shop and centrally provided services. I then designed a overview of those systems and where they fit in in a diagram. 
+Starting with the required feature list, I expanded the list with my own ideas of how a company like that would operate. I put together a more comprehensive list of features and then went about looking what IT systems would need to be created/implemented to support it. 
+
+Following this I spent some time thinking about the nature of the business, and how quickly it will expand. I split up the IT into in-shop and centrally provided services. I then designed a overview of those systems and where they fit in in a diagram. 
 
 Next up, was to zoom into a particular area of the business and build "something" to show my DevOps skills. I zoomed into the development team and created a diagram to show how that team would work. 
 
-As I chose to demonstrate my DevOps skills instead of my development skills. I put together a really really basic skeleton (like v0.001) of the pizza shop's live CI/CD system. The idea is to show you that I understand the concepts and that I can apply them even in a very simple demo situation. 
+As I chose to demonstrate my DevOps skills instead of my development skills. I put together an extremely basic skeleton (like v0.001) of the pizza shop's live CI/CD system. The idea is to show you that I understand the concepts and that I can apply them even in a very simple demo situation. 
 
 
 ## Structure and Nature
 
 There are several folders numbered 1 to 4. These contain the documentation and the various aspects and configuration files that I used to create the solution. 
 
-Parts of the system are live on the Internet that you can interact with. They are hosted on one of my home servers - so feel free to mess around with them. 
+Parts of the system are currently live on the Internet so that you can interact with them. They are hosted on one of my home servers - so feel free to mess around with them. 
 
 ### Prerequisites
 
-The url of the Jenkins system is:  http://home.wolfen.za.net:8081/
+The url of the Jenkins system is:
+
+http://home.wolfen.za.net:8081/
 
 The url of the 'production' web server is:
 
@@ -32,7 +36,7 @@ The url of the source control (svn) server is:
 http://home.wolfen.za.net/svn/tsbtest/
 
 ### Credentials
-You will need credentials for interacting with SVN and with Jenkins etc.
+You require credentials to interact with SVN and Jenkins etc.
 ```
 User: tsbtest
 Pass: tsbtest!
