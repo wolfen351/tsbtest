@@ -1,0 +1,413 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pizza Hut - Halaal</title>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-101115305-1', 'auto');
+  ga('send', 'pageview');
+ 
+</script>
+
+ <style type="text/css">
+div.el-content-wrapper
+{
+    font-size: 14px;
+    font-family: sans, sans-serif, Arial, Helvetica, Tahoma;
+    color: #595959;
+
+}
+div.el-content-wrapper input[type="text"], textarea
+{
+    min-width: 278px !important;
+    padding: 3px;
+}
+div.el-content-wrapper input, textarea, select
+{
+    border: 1px solid #C2C2C2;
+    font-size: 14px;
+    font-family: Arial, Helvetica, Tahoma, sans-serif;
+    color: #595959;
+}
+div.el-content-wrapper select
+{
+    padding: 2px;
+}
+div.el-content-wrapper input[type="text"]
+{
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border: 1px solid #e0e0e0;
+    background-color: #fbfbfb;
+    padding: 4px 3px 3px 7px;
+    height: 27px;
+    -moz-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+div.el-content-wrapper select
+{
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border: 1px solid #e0e0e0;
+    height: 27px;
+    background-color:#fbfbfb;
+    padding: 4px 3px 3px 7px;
+    -moz-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+div.el-content-wrapper textarea
+{
+    font-family: "courier new";
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border: 1px solid #e0e0e0;
+    background-color: #fbfbfb;
+    padding: 4px 3px 3px 7px;
+    -moz-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+div.el-content-wrapper label
+{
+    color: #595959;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 15px;
+}
+div.el-content-wrapper label.radio
+{
+    margin-right: 5px;
+}
+div.el-content-wrapper input:-moz-placeholder
+{
+    font-family: Arial, Helvetica, Tahoma, sans-serif;
+    color: #BBBBBB;
+    font-style: italic;
+}
+div.el-content-wrapper input::-webkit-input-placeholder
+{
+    font-family: Arial, Helvetica, Tahoma, sans-serif;
+    color: #BBBBBB;
+    font-style: italic;
+}
+div.el-content-wrapper input[type="radio"]
+{
+    margin-right: 2px;
+}
+div.el-content-wrapper input[type="checkbox"], input[type="radio"]
+{
+    border: none;
+    padding: 0;
+    min-width: inherit;
+}
+div.el-content-wrapper input[required], textarea[required]
+{
+    min-width: 251px;
+    padding-right: 16px;
+    background: #FFFFFF url(https://d1t1n5kkty1l4w.cloudfront.net/images/icons/asterisk-small-yellow.png) no-repeat center right;
+}
+div.el-content-wrapper input.input-number
+{
+    min-width: 70px;
+    width: 70px;
+	
+}
+div.el-content-wrapper textarea[required]
+{
+    background-position: top right;
+}
+div.el-content-wrapper input.public_button
+{
+    margin-right: 8px;
+    color: #333333 !important;
+    padding: 4px 5px 4px 5px;
+    border: 1px solid #CCCCCC;
+    background: #F2F2F2 url(https://d1t1n5kkty1l4w.cloudfront.net/images/layout/gradient_small.png) repeat-x scroll 0 bottom;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+}
+
+div.el-content-wrapper input.public_button:hover
+{
+    background: #F2F2F2 url(https://d1t1n5kkty1l4w.cloudfront.net/images/layout/gradient_small_rev.png) repeat-x scroll 0 top;
+}
+
+div.el-content-wrapper .clear
+{
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+    height: 0px;
+}
+div.el-content-wrapper .nowrap
+{
+    white-space: nowrap;
+}
+div.el-content-wrapper .stretch
+{
+    width: 100% !important;
+}
+/*Headers*/
+div.el-content-wrapper h1
+{
+    font-size: 24px;
+    padding: 3px 2px;
+    font-weight: 400;
+    margin: 6px 0 20px 0;
+    color: #343434;
+}
+div.el-content-wrapper h2
+{
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+}
+div.el-content-wrapper h2 label
+{
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+}
+div.el-content-wrapper h3
+{
+    margin-bottom: 5px;
+    color: #5A5A5A;
+    font-weight: bold;
+    font-size: 13px;
+}
+div.el-content-wrapper h3 label
+{
+    color: #5A5A5A;
+    font-weight: bold;
+    font-size: 13px;
+}
+/*Content wrappers*/
+div.el-content-wrapper
+{
+	/*Default width*/
+    width: 350px;
+	padding: 10px;
+}
+
+div.el-content
+{
+    /*Default width*/
+    width: 99%;
+}
+/*Forms*/
+div.el-content-wrapper table.fieldset
+{
+    margin: 0 0 0 4px;
+}
+div.el-content-wrapper table.fieldset td
+{
+    padding: 0 5px 6px 0;
+    vertical-align: top;
+}
+div.el-content-wrapper table.fieldset td label
+{
+    display: inline-block;
+    margin-top: 4px;
+}
+div.el-content-wrapper table.fieldset input[type="checkbox"]
+{
+    margin-top: 4px;
+}
+div.el-content-wrapper table.fieldset.summary td
+{
+    font-size: 12px;
+    padding-top: 4px;
+    color: #777777;
+}
+div.el-content-wrapper table.fieldset.summary td label
+{
+    font-weight: bold;
+    color: #777777;
+    margin-top: 0px;
+    white-space: nowrap;
+}
+div.el-content-wrapper table.fieldset.view td
+{
+    padding-top: 4px;
+}
+div.el-content-wrapper table.fieldset.view td label
+{
+    margin-top: -1px;
+}
+div.el-content-wrapper table.fieldset.view td.checkbox-setting
+{
+    padding-top: 7px;
+    font-size: 12px;
+}
+div.el-content-wrapper span.error
+{
+    position: relative;
+    display: inline-block;
+    padding: 3px;
+    margin: -3px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    background-color: #FFE3E3;
+}
+div.el-content-wrapper span.error input
+{
+    border: 1px solid #FF9999;
+    background-color: #FFFFFF !important;
+}
+div.el-content-wrapper span.error span
+{
+    display: block;
+    margin-top: 1px;
+    text-align: right;
+    color: #FF5858;
+    font-size: 10px;
+    font-style: italic;
+}
+div.el-content-wrapper table.fieldset td.submit
+{
+    text-align: left;
+}
+div.el-content-wrapper div.field-heading.top
+{
+    margin-bottom: 7px;
+}
+div.el-content-wrapper div.field-heading.bottom
+{
+    margin-bottom: 7px;
+}
+div.el-content-wrapper div.field-heading.bottom>label
+{
+    font-size: 12px !important;
+    margin-left: 2px;
+}
+div.el-powered-by
+{
+    font-size: 11px;
+    font-family: sans, sans-serif, Arial, Helvetica, Tahoma;
+    color: #595959;
+}
+
+.el-powered-by a
+{
+    color: #595959;
+    text-decoration: none;
+}
+
+.el-powered-by a:hover
+{
+    text-decoration: underline;
+}
+
+div.el-content-wrapper {
+    background-color: #000000 !important;
+}
+div.el-content-wrapper {
+    border: 1px solid #000000 !important;
+}
+div.el-content-wrapper h1, label {
+    color: #ffffff !important;
+}
+div.el-content-wrapper input, select, textarea {
+    background-color: #ffffff !important;
+}
+div.el-content-wrapper input, select, textarea {
+    border: 1px solid #c2c2c2 !important;
+}
+input:-moz-placeholder {color: #222222 !important;} input::-webkit-input-placeholder {color: #222222 !important;}
+  
+#Heading {
+	background-color:white;
+	color:white;
+	text-align:center;
+	padding:0px;
+}
+a:link    {color:#000000; background-color:transparent; text-decoration:none}
+a:visited {color:#000000; background-color:transparent; text-decoration:none}
+a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
+a:active  {color:#ff0000; background-color:transparent; text-decoration:underline} 
+
+</style>
+</head>
+
+<body>
+
+<div id="Heading">
+<Table width="1163" align="center" border="0" cellspacing="0" cellpadding="0"><tr>
+<td><img src="img/ph_logo_1306-0715.jpg"/></td>
+<td><a href="Pizza_Hut_Main.html"><font size="5"><Bold>Main Menu |</Bold></font></a>
+<a href="Pizza_Hut_Halaal.html"><font size="5"><Bold>Halaal Menu |</Bold></font></a>
+<a href="Locations.html"><font size="5"><Bold>Store Locations |</Bold></font></a>
+<a href="Pizza_Hut_Franchise_ADD.html"><font size="5"><Bold>Franchise Enquiries.</Bold></font></a></td>
+</tr></Table>
+</div>
+
+
+<table width="1163" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td><img width="1163" border="0" src="img/1_Splash_1506_1150.jpg" /></td>
+  </tr>
+  <tr>
+    <td><img width="1163" border="0" src="img/2_1508_0742.jpg" /></td>
+  </tr>
+  <tr>
+    <td><img width="1163" border="0" src="img/2_0607_0645.jpg" /></td>
+  </tr>
+  <tr>
+    <td><img width="1163" border="0" src="img/3_Halaal_1306_0715.jpg" /></td>
+  </tr>
+  <tr>
+    <td><img width="1163" border="0" src="img/4_1306_0715.jpg" /></td>
+  </tr>
+  <tr>
+    <td><img width="1163" border="0" src="img/5_Halaal_1306_0715.jpg" /></td>
+  </tr>
+  <tr>
+    <td><img width="1163" border="0" height="200" src="img/6.jpg" /></td>
+  </tr>
+  <tr>
+    <td><img src="img/phh-banner8.jpg" width="1163" height="107" border="0" usemap="#Map" /></td>
+  </tr>
+                                   
+                                   <tr>
+                                        <td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; text-align:left; line-height: 10px; padding-left:40px; padding-right:40px; padding-top:10px; padding-bottom:10px;">
+                                           <a href="Ts&amp;Cs.pdf" style="color: black">T&C apply | Download PDF</a>
+					</td>
+                                   </tr>
+                              <!-- Spacing -->
+                              <tr>
+                                 <td height="20" bgcolor="#000000" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+                              </tr>
+                              <!-- Spacing -->
+</table>
+
+
+<map name="Map" id="Map">
+<area shape="rect" coords="320,10,532,83" href="https://www.facebook.com/pizzahutSA?_rdr=p" target="_blank" alt="Pizza Hut Facebook" />
+<area shape="rect" coords="586,11,859,83" href="mailto:pizzahutcustomercare@dsg.co.za" target="_blank"  alt="Pizza Hut Email" />
+<area shape="rect" coords="899,14,1135,90" href="https://twitter.com/PizzahutSA" target="_blank" alt="Pizza Hut Twitter" />
+</map>
+
+</body>
+</html>

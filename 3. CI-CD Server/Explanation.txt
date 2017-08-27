@@ -1,0 +1,8 @@
+This server is running a Jenkins Master Node
+
+I've placed a backup of the jenkins config here, for completeness, also some screenshots of the jobs
+
+The Jenkins Instance is accessible online here:  http://home.wolfen.za.net:8081/
+
+Use credentials: tsbtest / tsbtest!
+
