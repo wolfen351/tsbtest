@@ -39,7 +39,6 @@ http://home.wolfen.za.net/svn/tsbtest/
 You require credentials to interact with SVN and Jenkins etc.
 ```
 User: tsbtest
-Pass: tsbtest!
 ```
 
 
